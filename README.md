@@ -36,10 +36,10 @@ Log into the [Lambda console](https://developer.amazon.com/) and open the new fu
 
 Switch back to the Alexa Developer console and select the option to use Lambda as the service endpoint for the skill. Paste the ARN of your Lambda function.
 
-### Test it out!
+### Test it out
 
 Send the `say hello world` utterance with the Service Simulator. You should see a response from your Lambda function:
 
-(image)
+![Service Simulator screenshot](http://g.recordit.co/IyNub3ni2X.gif)
 
-If you used the same email address for the developer console as you did when you logged into Alexa on your device, you can test the skill live on your device, too.
+If you used the same email address for the developer console as you did when you logged into Alexa on your device, you can test the skill live on your device, too!
