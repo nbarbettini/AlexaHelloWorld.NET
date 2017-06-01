@@ -1,0 +1,2 @@
+HelloWorldIntent say hello
+HelloWorldIntent say hello world
