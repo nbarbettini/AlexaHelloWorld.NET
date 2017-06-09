@@ -41,9 +41,21 @@ namespace AlexaHelloWorld
         {
             logger.LogLine($"IntentRequest {intentRequest.Intent.Name} made");
 
+            var responseSpeech = "Hello world";
+
+            if (intentRequest.Intent.Slots.TryGetValue("City", out var citySlot))
+            {
+                if (!string.IsNullOrEmpty(citySlot.Value))
+                {
+                    responseSpeech += $" from {citySlot.Value}";
+                }
+            }
+
+            responseSpeech += "!";
+
             var response = ResponseBuilder.Tell(new PlainTextOutputSpeech()
             {
-                Text = "Hello world!"
+                Text = responseSpeech
             });
 
             return response;
