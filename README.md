@@ -1,5 +1,9 @@
 # Alexa skill using C# and AWS Lambda
 
+Slides for my talk: [Build an Alexa skill with .NET Core and AWS Lambda](https://speakerdeck.com/nbarbettini/build-an-alexa-skill-with-net-core-and-aws-lambda)
+
+---
+
 This project contains a simple Hello World skill for Alexa. It's written in C# using the [Alexa.NET](https://github.com/timheuer/alexa-skills-dotnet) library and intended to be deployed as a Lambda function.
 
 Follow these steps to try it out yourself:
